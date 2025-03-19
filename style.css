@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: "Iceland", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.one {
+    height: 180px;
+    width: 95%;
+    display: flex;
+
+}
+
+.two {
+    height: 180px;
+    width: 95%;
+    display: flex;
+}
+
+.three {
+    height: 180px;
+    width: 95%;
+    display: flex;
+
+}
+
+.one-1 {
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 3px;
+    height: 180px;
+    width: 20%;
+    border-color: #d5af37;
+    margin: 5px;
+    display: flex;
+}
+
+#item-1 {
+    background-image: url(./img/dark-naruto-1n-1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.one-2 {
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 3px;
+    height: 180px;
+    width: 60%;
+    border-color: #d5af37;
+    color: #d5af37;
+    display: flex;
+    position: relative;
+    top: 5px;
+    margin: 2px;
+}
+
+#one-2 {
+    background-image: url(./img/firee.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.one-3 {
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 3px;
+    height: 180px;
+    width: 20%;
+    border-color: #d5af37;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-evenly;
+
+}
+
+
+.three-1 {
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 3px;
+    height: 180px;
+    width: 33%;
+    border-color: #d5af37;
+    margin: 5px;
+    background-image: url(./img/fireee.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.three-2 {
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 3px;
+    height: 180px;
+    width: 33%;
+    border-color: #d5af37;
+    margin: 5px;
+    display: flex;
+    color: #d5af37;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/fireee.jpg);
+    background-position: inherit;
+    background-size: cover;
+}
+
+.three-3 {
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 3px;
+    height: 180px;
+    width: 33%;
+    border-color: #d5af37;
+    margin: 5px;
+    display: flex;
+    color: #d5af37;
+    background-image: url(./img/fireee.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+#one {
+    background-image: url(./img/dark-naruto-1n-1920x1080.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.two1 {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+
+
+}
+
+.one1 {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one2 {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item {
+    border-color: #d5af37;
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: 2px;
+    background-color: #2f1d1d;
+    padding: 5px;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #000;
+}
+
+.box {
+    font-size: 20px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #d5af37;
+    border-style: dashed;
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+    background-color: #2f1d1d;
+
+}
+
+.box:hover {
+    background-color: #000;
+}
+
+#box {
+    text-align: center;
+    margin: 5px;
+}
+
+.two2 {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border-color: #d5af37;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+
+}
+
+
+
+.boxx {
+    height: 40px;
+    width: 45px;
+}
+
+.box2 {
+    height: 40px;
+    border-radius: 100%;
+    width: 40px;
+    background-color: #000;
+    border-color: #d5af37;
+    border-style: solid;
+    border-width: 2px;
+    position: relative;
+    bottom: 5px;
+}
+
+
+#three {
+    background-image: url(./img/flamethrower-girl-fire-anime-dc6aejy8yyhlropt.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.boxx1 {
+    height: 43px;
+    width: 43px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 2px;
+    transition-duration: 1s;
+}
+
+
+.box3 {
+    height: 45px;
+    width: 45px;
+    background-color: #000;
+    border-radius: 100%;
+    border-color: #d5af37;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.boxx {
+    border-radius: 100%;
+    height: 40px;
+}
+
+
+.rp {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: #d5af37;
+    position: relative;
+    left: 45px;
+
+}
+
+#q {
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+    left: 20px;
+}
+
+.rpp1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 6.5px;
+
+
+}
+
+.rp1 {
+    height: 100%;
+    width: 30%;
+    border-left-width: 3px;
+    border-left-style: dashed;
+    border-left-color: #d5af37;
+    border-right-width: 3px;
+    border-right-style: dashed;
+    border-right-color: #d5af37;
+
+    display: flex;
+}
+
+.rp2 {
+    height: 100%;
+    width: 30%;
+    border-right-width: 3px;
+    border-right-style: dashed;
+    border-right-color: #d5af37;
+    display: flex;
+
+}
+
+.rp3 {
+    height: 100%;
+    width: 33%;
+
+    display: flex;
+
+}
+
+.w {
+    position: relative;
+    left: 10px;
+}
+
+.ww {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    position: relative;
+    left: 80px
+}
+
+.e {
+    display: flex;
+    color: #d5af37;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.ee {
+    text-decoration: none;
+    color: #d5af37;
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #d5af37;
+    padding: 5px;
+    background-color: #2f1d1d;
+}
+
+.ee:hover {
+    background-color: #000;
+}
+
+.eee {
+    position: relative;
+
+}
+
+.ee1 {
+    text-decoration: none;
+    color: #d5af37;
+
+
+}
+
+.ee2 {
+    text-decoration: nome;
+    position: relative;
+    left: 5px;
+}
+
+.r {
+    color: #d5af37;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: #d5af37;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.r1 {
+    position: relative;
+    right: 110px;
+}
+
+.r2 {
+    position: relative;
+    right: 112px;
+}
+
+.rr {
+    background-color: #2f1d1d;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #d5af37;
+    border-style: dotted;
+    padding: 5px;
+    margin: 2px;
+
+}
+
+.rr:hover {
+    background-color: #000;
+}
+
+.rr1 {
+    color: #d5af37;
+    text-decoration: none;
+}
+
+.t {
+    display: flex;
+    color: #d5af37;
+    margin: 5px;
+    width: 100%;
+    height: 1005;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.tt {
+    font-size: 25px;
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 10px;
+    top: 15px;
+}
+
+.ttt {
+    font-size: 22px;
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 35px;
+}
+
+.tt1 {
+    font-size: 20px;
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 15px;
+    left: 2px;
+}
+
+.tt3 {
+    font-size: 20px;
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 15px;
+    left: 2px;
+    margin: 10px;
+    position: relative;
+    font-size: 23px;
+    left: 70px;
+}
+
+button {
+    width: 50px;
+    font-size: 20px;
+    position: relative;
+    left: 700px;
+    background-color:rgb(244, 148, 107);
+    text-decoration:none;
+    color: #d5af37;
+    border-radius: 6px;
+    border-color:  #d5af37;
+}
+
+button:hover {
+    background-color: #000;
+}
